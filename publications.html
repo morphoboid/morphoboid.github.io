@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>MorphoBoid</title>
+
+    <meta name="description" content="Pulseadmin - A clean, responsive HTML template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <link rel="stylesheet" href="css/normalize-and-boilerplate.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Pacifico' rel='stylesheet' type='text/css' />
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+
+
+    <!-- start: off canvas area -->
+    <aside class="off-canvas">
+      <div class="row">
+        <div class="columns col-17">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="current" href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="projects.html">Our projects</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns col-12">
+          <div class="social-links">
+            <a href="#" title="Like us on Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" title="Follow us on Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>        
+      </div>
+    </aside>
+    <!-- end: off canvas area -->
+
+    <!-- start: ON canvas area -->
+    <div class="on-canvas">
+      <div class="canvas-overlay"></div>
+
+      <header class="header">
+        <div class="row max-inner">
+          <div class="columns col-3">
+            <a href="#" class="toggle-off-canvas"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="logo">
+              <span class="highlight-color">Morpho</span>Boid
+            </a>
+          </div>
+          <div class="columns col-7" style="width:700px">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="projects.html">Our projects</a></li>
+                <li><a class="current" href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="columns col-2" style="width:150px">
+            <div class="social-links">
+              <a href="#" title="Like us on Facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#" title="Follow us on Twitter">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div class="max-inner">
+          <div class="row">
+            <div class="columns col-12">
+              <header class="section-heading">
+                <h2>Publications</h2>
+                 <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+              </header>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns col-12 faqs"> 
+
+              <!-- start: Question+Answer -->
+              <div class="faq">
+                <div class="row faq-q">
+                  <div class="columns col-10">
+                    <strong>
+                      <a href="#">
+                        <i class="fa fa-chevron-right"></i>
+                        MAELab: a framework to automatize landmark estimation 
+                      </a>
+                    </strong>
+                  </div>
+                  <!--<div class="columns col-2 float-right">
+                    <div class="faq-rating stars-3">
+                      <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="faq-a">
+                  <p>Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY (WSCG - 2017)</p>
+                  <p style="text-align: justify"><b>Abstract:</b>
+                    In biology, the morphometric analysis is widely used to analyze the inter-organisms variations. It allows to classify and to determine the evolution of an organism’s family. The morphometric methods consider features such as shape, structure, color, or size of the studied objects. In previous works [8], we have analyzed beetle mandibles by using the centroid as feature, in order to classify the beetles. We have shown that the Probabilistic Hough Transform (PHT) is an efficient unsupervised method to compute the centroid. This paper proposes a new approach to precisely estimate the landmark geometry, points of interest defined by biologists on the mandible contours. In order to automatically register the landmarks on different mandibles, we defined patches around manual landmarks of the reference image. Each patch is described by computing its SIFT descriptor. Considering a query image, we apply a registration step performed by an Iterative Principal Component Analysis which identify the rotation and translation parameters. Then, the patches in the query image are identified and the SIFT descriptors computed. The biologists have collected 293 beetles to provide two sets of mandible images separated into left and right side. The experiments show that, depending on the position of the landmarks on the mandible contour, the performance can go up to 98% of good detection. The complete workflow is implemented in the MAELab framework, freely available as library on GitHub.
+                  </p>
+                  <p><a href="#">PDF</a></p>
+                </div>
+              </div>  
+              <!-- end: Question+Answer -->  
+
+              <!-- start: Question+Answer -->
+              <div class="faq">
+                <div class="row faq-q">
+                  <div class="columns col-10">
+                    <strong>
+                      <a href="#">
+                        <i class="fa fa-chevron-right"></i>
+                        SIFT descriptor to set landmarks on biological images
+                      </a>
+                    </strong>
+                  </div>
+                  <!--<div class="columns col-2 float-right">
+                    <div class="faq-rating stars-5">
+                      <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="faq-a">
+                  <p>Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY (GRETSI - 2017)</p>
+                 <p style="text-align: justify"><b>Abstract:</b>
+                    Image analysis is a large field in image processing and it has applied in practice with many application in the different majors such as medicine, computer vision, biology, ... In biology, images are widely used for a long time, to study molecule structures or behaviors, tissues characteristics and in general to measure and to classify anatomical details. Classification of biological samples can be obtained from studying morphological features but at this time, setting morphological markers is done manually. In this work, we have focused on the problem to replace manual operations by automatic procedures to set landmarks which are point of interests in biological images. This paper presents how we have designed a specific way to use the SIFT descriptor to improve the results that we have obtained before to achieve this task. The two main characteristics of our method are the reduction of the patch area to compute de source descriptor and the definition of a restrictive search area of the target. The efficiency of the method is evaluated on two set of images: left and right mandibles of beetles belonging to a study of the national institute of agriculture (INRA). The complete method is implemented in a framework called MAELab and freely available on GitHub.
+                  </p>
+                   <p><a href="#">PDF</a></p>
+                </div>
+              </div>  
+              <!-- end: Question+Answer -->  
+
+<!-- start: Question+Answer -->
+              <div class="faq">
+                <div class="row faq-q">
+                  <div class="columns col-10">
+                    <strong>
+                      <a href="#">
+                        <i class="fa fa-chevron-right"></i>
+                        Estimating landmarks on 2D images of beetle mandibles
+                      </a>
+                    </strong>
+                  </div>
+                  
+                </div>
+                <div class="faq-a">
+                  <p>LE Van Linh, BEURTON-AIMAR Marie, SALMON Jean-Pierre, ALEXIA Marie, PARISEY Nicolas (WSCG - 2015)</p>
+                  <p style="text-align: justify"><b>Abstract:</b>
+                    Studying links between phenotype/genotype and agricultural practices is one of the main current topics in agro-
+nomical research. Phenotypes is the observable physical characteristics of an organism like its age, sex and more,
+often extracted with the help of image analysis of its morphology. Nowadays, getting good quality of images for
+numerous individuals is easy but that leads to design automatic procedures to replace manual exploration of such
+amount of data. Several bottlenecks have been identified to analyze automatically images. One of them is segmen-
+tation of selected area and/or shapes, another well-known one is setting automatically morphometric landmarks.
+Landmarks are points on the object which can be used to identify or to classify the objects.
+It exists a lot of methods to experiment landmark setting, depending on the image contents. The described work
+has been initiated by using the article of Palaniswamy et al.
+"Automatic identification of landmarks in digital im-
+ages". They proposed a method based on calculus of a Probabilistic Hough Transform coupled to a template
+matching algorithm. They applied their method to the Drosophilia wings. In our study, we got a set of 291 beetles
+. For each one, 2D images of 5 different parts of their anatomy have been taken: mandibles left and right, head,
+pronotum and elytra. The first part of the project was to test how the Palaniswamy’s method could be used to
+analyze them. We have implemented all the required algorithms to compute positions of mandibles landmarks and
+compared the obtained results to landmarks which have been manually set by biologists. We will see that if we use
+centroid size to characterize mandibles, the size computed from automatic landmarks is close to the one computed
+from manual ones. Future works will focus on definition of a semi-landmarks procedure which would add some
+features as the measure of the curve between two landmarks.
+                  </p>
+                   <p><a href="#">PDF</a></p>
+                </div>
+              </div>  
+              <!-- end: Question+Answer --> 
+
+
+            </div>
+          </div>
+<!--
+          <div class="row">
+            <div class="columns col-12">
+              <h2>Ask about a solution</h2>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="columns col-5 no-left-pad">
+                    <div class="row">
+                      <div class="columns col-3 no-left-pad"><label for="name" class="inline-label">Name:</label></div>
+                      <div class="columns col-9"><input placeholder="Brian Jones" type="text" /></div>
+                    </div>
+
+                    <div class="columns col-3 no-left-pad"><label for="email" class="inline-label">Email:</label></div>
+                    <div class="columns col-9"><input placeholder="b_jones@gmail.com" type="email" /></div>
+                  </div>
+                  <div class="columns col-7 no-right-pad">
+                    <textarea placeholder="Message&hellip;" rows="4"></textarea>
+                    <input type="submit" value="Send message" class="submit float-right">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+-->
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="max-inner footer-content">
+            <div class="columns col-3">
+              <h3>Contact</h3>
+              <p>
+                MorphoBoid team<br />
+                LaBRI laboratory<br />
+                351 cours de la Liberation<br />
+                Talence - 33400, France
+                <br /><br />
+                +33(0)5 4000 69 00<br />
+                <a href="#">morphoboid@labri.fr</a>
+              </p>
+            </div>
+            <div class="columns col-3">
+              <h3>Probjects</h3>
+              <ul>
+                <li><a href="#">MAELab Framework</a></li>
+                <li><a href="#">Heritage project</a></li>
+                <!--<li><a href="#">Developer</a></li>
+                <li><a href="#">UI/UX specialist</a></li>-->
+              </ul>
+            </div>
+            <div class="columns col-3">
+              <h3>Positions</h3>
+              <ul>
+                <li><a href="#">Engineer position</a></li>
+                <li><a href="#">Internship position</a></li>
+                <li><a href="#">Phd thesis position</a></li>
+                <li><a href="#">Post-doct position</a></li>
+              </ul>
+            </div>
+            <div class="columns col-3">
+              <h3>Support</h3>
+              <p>
+                MorphoBoid team.
+                <br /><br />
+                +33(0)5 4000 69 00<br />
+                <a href="#">morphoboid@labri.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright">
+          <div class="max-inner">
+            <div class="row">
+              <div class="columns col-12">
+                <p>Copyright &copy; 2018 morphoboid. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- end: ON canvas area -->
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
