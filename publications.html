@@ -103,7 +103,70 @@
             </div>
           </div>
           <div class="row">
-            <div class="columns col-12 faqs">               
+            <div class="columns col-12 faqs">  
+              <!-- start: Question+Answer -->
+              <div class="faq" id="devmappubs">
+                <div class="row faq-q">
+                  <div class="columns col-10">
+                    <strong>
+                      <a href="#">
+                        <strong style ="font-weight:normal; color:#8a908d; font-size: 16px">Pirrone, Antoine, Marie Beurton Aimar, and Nicholas Journet, </strong>
+                        <i class="fa fa-chevron-right"></i>
+                         Papy-S-Net: A Siamese Network to match papyrus fragments<strong style ="font-weight:normal; color:#8a908d; font-size: 16px">, Proceedings of the 5th International Workshop on Historical Document Imaging and Processing (HIP), 2019</strong>
+                      </a>
+                    </strong>
+                  </div>
+                  <!--<div class="columns col-2 float-right">
+                    <div class="faq-rating stars-3">
+                      <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="faq-a">
+                  <p style="text-align: justify"><b>Abstract:</b>
+                      Like all heritage documents, papyri are the subject of an in-depth study by scientists. While large volumes of papyri have been digi-
+tized and indexed, many are still waiting to be so. It takes time to study a papyrus mainly because they are rarely available in one
+piece. Papyrologists must review a large number of fragments, find those that go together and then assemble them to finally analyze the
+text. Unfortunately, some fragments no longer exist. It is then a time consuming puzzle to solve, where not all the pieces are available
+and where fragments boundaries are not perfectly matching. This article describes a method to help Papyrologists save time by helping them to solve this complex puzzle. We provide a solu-
+tion where an expert use a fragment as a request element and get fragments that belong to the same papyrus. The main contribution is the proposal of a deep siamese network architecture, called Papy-S-Net for Papyrus-Siamese-Network, designed for papyri fragment matching. This network is trained and validated on
+500 papyrus fragments approx. We compare the results of Papy-S-Net with a previous work which proposes a siamese
+network to match written symbols. In order to train and validate the network, we proceed to the extraction of patches from the papyrus
+fragments to create our ground truth. Papy-S-Net outperforms Koch et al.’s network. We also evaluate our approach on a real use case on which
+Papy-S-Net achieves 79% of correct matches.
+                  </p>
+                  <p><a href="https://hal.archives-ouvertes.fr/hal-02367779/document" target="_blank">PDF</a></p>
+                </div>
+              </div>  
+              <!-- end: Question+Answer -->
+
+              <!-- start: Question+Answer -->
+              <div class="faq" id="devmappubs">
+                <div class="row faq-q">
+                  <div class="columns col-10">
+                    <strong>
+                      <a href="#">
+                        <strong style ="font-weight:normal; color:#8a908d; font-size: 16px">Cecilia Ostertag, Marie Beurton-Aimar, Thierry Urruty, </strong>
+                        <i class="fa fa-chevron-right"></i>
+                         3D-SiameseNet to Analyze Brain MRI<strong style ="font-weight:normal; color:#8a908d; font-size: 16px">, 10th International Conference on Pattern Recognition Systems (ICPRS), 2019 (ICPRS-19)</strong>
+                      </a>
+                    </strong>
+                  </div>
+                  <!--<div class="columns col-2 float-right">
+                    <div class="faq-rating stars-3">
+                      <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="faq-a">
+                  <p style="text-align: justify"><b>Abstract:</b>
+                     Prediction of the cognitive evolution of a person susceptible to develop a neurodegenerative disorder is crucial to provide an appropriate treatment as soon as possible. In this paper we propose a 3D siamese network designed to extract features from whole-brain 3D MRI images. We show that it is possible to extract meaningful features using convolution layers, reducing the need of classical image processing operations such as segmentation or pre-computing features such as cortical thickness. To lead this study we used the Alzheimer's Disease Neuroimaging Initiative (ADNI), a public data base of 3D MRI brain images. A set of 247 subjects has been extracted, all of the subjects having 2 images in a range of 12 months. In order to measure the evolution of the patients states we have compared these 2 images. Our work has been inspired at the beginning by an article of Bhagwat et al. in 2018, who have proposed a siamese network to predict the status of patients but without any convolutional layers and reducing the MRI images to a vector of features extracted from predefined ROIs. We show that our network achieves an accuracy of 90\% in the classification of cognitively declining VS stable patients. This result has been obtained without the help of a cognitive score and with a small number of patients comparing to the current datasets size claimed in deep learning domain. 
+                  </p>
+                  <p><a href="https://arxiv.org/abs/1909.01098" target="_blank">PDF</a></p>
+                </div>
+              </div>  
+              <!-- end: Question+Answer -->
+             
               <!-- start: Question+Answer -->
               <div class="faq" id="devmappubs">
                 <div class="row faq-q">
@@ -127,7 +190,7 @@
                   <p style="text-align: justify"><b>Abstract:</b>
                     Morphometry landmarks are used in many biological applications. Mostly, the landmarks are defined manually or semi-automatically by applying the image processing techniques. In recent years, deep learning is known as a good solution to achieve image analysis tasks. It appears in many fields such as classification, recognition, face detection. In this context, we present a convolutional neural network to predict the landmarks on 2D biological images, specifically beetles images. The proposed model is designed from an elementary block of three layers: convolution, pooling, and dropout. The experiments on the proposed network have been done in two steps: training from scratch and fine-tuning from a trained model. The dataset includes the images of collecting from 293 beetles (on head, pronotum, body parts). Among these, a set of manual landmarks has been built for each part by the biologists. In this work, we have worked on prediction of pronotum landmarks. The quality of predicted landmarks is evaluated by calculating the distance in pixels between the coordinates of the predicted landmarks and manual landmarks which are considered as ground truth. 
                   </p>
-                  <p><a href="#">PDF</a></p>
+                  <p><a href="#" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->
@@ -154,7 +217,7 @@
                   <p style="text-align: justify"><b>Abstract:</b>
                     Morphometry landmarks are used in many biological applications. Mostly, the landmarks are defined manually or semi-automatically by applying the image processing techniques. In recent years, deep learning is known as a good solution to achieve image analysis tasks. It appears in many fields such as classification, recognition, face detection. In this context, we present a convolutional neural network to predict the landmarks on 2D biological images, specifically beetles images. The proposed model is designed from an elementary block of three layers: convolution, pooling, and dropout. The experiments on the proposed network have been done in two steps: training from scratch and fine-tuning from a trained model. The dataset includes the images of collecting from 293 beetles (on head, pronotum, body parts). Among these, a set of manual landmarks has been built for each part by the biologists. In this work, we have worked on prediction of pronotum landmarks. The quality of predicted landmarks is evaluated by calculating the distance in pixels between the coordinates of the predicted landmarks and manual landmarks which are considered as ground truth. 
                   </p>
-                  <p><a href="#">PDF</a></p>
+                  <p><a href="https://digital-library.theiet.org/content/conferences/10.1049/cp.2018.1291" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->
@@ -181,7 +244,7 @@
                   <p style="text-align: justify"><b>Abstract:</b>
                     Morphometric analysis is a general method applied to organisms and used to appreciate the covariances between the ecological factors and the organisms (shape, size, form,...) in which, landmark-based morphometry is known as one of the approaches to analyze the characteristics of organisms. Finding landmarks setting can give to biologists a comprehensive description of the organism. In this study, we propose a convolutional neural network (CNN) to predict the landmarks on beetle images. The network is designed as a pipeline of layers, it has been trained with a set of manually labeled landmarks dataset. Then, the network has been used to provide the morphometric landmarks on biological images automatically. The coordinates of predicted landmarks have been evaluated by computing their distance to the manual coordinates given by the biologists. Besides, the average of distance errors on each landmark has been also computed. The network model is implemented by Python on Lasagne framework.
                   </p>
-                  <p><a href="#">PDF</a></p>
+                  <p><a href="https://ieeexplore.ieee.org/abstract/document/8337519" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->
@@ -220,7 +283,7 @@ more than 98% of the images belonging to the dataset test. From
 now, this model can be used to classify the full data set of the
 Heritage repository.
                   </p>
-                  <p><a href="#">PDF</a></p>
+                  <p><a href="https://ieeexplore.ieee.org/document/8337517" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->
@@ -232,9 +295,8 @@ Heritage repository.
                       <a href="#">
                         <strong style ="font-weight:normal; color:#8a908d; font-size: 16px">Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY </strong>
                         <i class="fa fa-chevron-right"></i>
-                        MAELab: a framework to automatize landmark estimation <br/>
-                        <strong style ="font-weight:normal; color:#8a908d; font-size: 16px">Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY <br/>
-                        International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision, 2017 (WSCG-17)</strong>
+                        MAELab: a framework to automatize landmark estimation
+                        <strong style ="font-weight:normal; color:#8a908d; font-size: 16px">, International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision, 2017 (WSCG-17)</strong>
                       </a>
                     </strong>
                   </div>
@@ -249,7 +311,7 @@ Heritage repository.
                   <p style="text-align: justify"><b>Abstract:</b>
                     In biology, the morphometric analysis is widely used to analyze the inter-organisms variations. It allows to classify and to determine the evolution of an organism’s family. The morphometric methods consider features such as shape, structure, color, or size of the studied objects. In previous works [8], we have analyzed beetle mandibles by using the centroid as feature, in order to classify the beetles. We have shown that the Probabilistic Hough Transform (PHT) is an efficient unsupervised method to compute the centroid. This paper proposes a new approach to precisely estimate the landmark geometry, points of interest defined by biologists on the mandible contours. In order to automatically register the landmarks on different mandibles, we defined patches around manual landmarks of the reference image. Each patch is described by computing its SIFT descriptor. Considering a query image, we apply a registration step performed by an Iterative Principal Component Analysis which identify the rotation and translation parameters. Then, the patches in the query image are identified and the SIFT descriptors computed. The biologists have collected 293 beetles to provide two sets of mandible images separated into left and right side. The experiments show that, depending on the position of the landmarks on the mandible contour, the performance can go up to 98% of good detection. The complete workflow is implemented in the MAELab framework, freely available as library on GitHub.
                   </p>
-                  <p><a href="uploads/papers/M71_full.pdf">PDF</a></p>
+                  <p><a href="https://hal.archives-ouvertes.fr/hal-01571440/" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->  
@@ -277,7 +339,7 @@ Heritage repository.
                  <p style="text-align: justify"><b>Abstract:</b>
                     Image analysis is a large field in image processing and it has applied in practice with many application in the different majors such as medicine, computer vision, biology, ... In biology, images are widely used for a long time, to study molecule structures or behaviors, tissues characteristics and in general to measure and to classify anatomical details. Classification of biological samples can be obtained from studying morphological features but at this time, setting morphological markers is done manually. In this work, we have focused on the problem to replace manual operations by automatic procedures to set landmarks which are point of interests in biological images. This paper presents how we have designed a specific way to use the SIFT descriptor to improve the results that we have obtained before to achieve this task. The two main characteristics of our method are the reduction of the patch area to compute de source descriptor and the definition of a restrictive search area of the target. The efficiency of the method is evaluated on two set of images: left and right mandibles of beetles belonging to a study of the national institute of agriculture (INRA). The complete method is implemented in a framework called MAELab and freely available on GitHub.
                   </p>
-                   <p><a href="uploads/papers/SIFT_landmarks.pdf">PDF</a></p>
+                   <p><a href="uploads/papers/SIFT_landmarks.pdf" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer -->  
@@ -319,7 +381,7 @@ centroid size to characterize mandibles, the size computed from automatic landma
 from manual ones. Future works will focus on definition of a semi-landmarks procedure which would add some
 features as the measure of the curve between two landmarks.
                   </p>
-                   <p><a href="uploads/papers/E73_full.pdf">PDF</a></p>
+                   <p><a href="https://dspace5.zcu.cz/handle/11025/29598" target="_blank">PDF</a></p>
                 </div>
               </div>  
               <!-- end: Question+Answer --> 
