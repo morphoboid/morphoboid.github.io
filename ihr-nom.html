@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>MorphoBoid</title>
+
+    <meta name="description" content="Pulseadmin - A clean, responsive HTML template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <link rel="stylesheet" href="css/normalize-and-boilerplate.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Pacifico' rel='stylesheet' />
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+
+
+    <!-- start: off canvas area -->
+    <aside class="off-canvas">
+      <div class="row">
+        <div class="columns col-17">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="current" href="index.html">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="about.html">Peoples</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns col-12">
+          <div class="social-links">
+            <a href="#" title="Like us on Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" title="Follow us on Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>        
+      </div>
+    </aside>
+    <!-- end: off canvas area -->
+
+    <!-- start: ON canvas area -->
+    <div class="on-canvas">
+      <div class="canvas-overlay"></div>
+
+      <header class="header">
+        <div class="row max-inner">
+          <div class="columns col-3">
+            <a href="#" class="toggle-off-canvas"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="logo">
+              <img src="images/logo.png" alt="logo" />
+               <!--<span class="highlight-color">Morpho</span>Boid-->
+            </a>
+          </div>
+          <div class="columns col-7" style="width:700px">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current"  href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="about.html">Peoples</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="columns col-2" style="width:150px">
+            <div class="social-links">
+              <a href="http://www.labri.fr/" target = "_blank" title="LaBRI" style = "border:none;border-radius:0;width:40px">
+                <!--<i class="fa fa-facebook"></i>-->
+                <img src = 'images/labri.png' alt="labri" />
+              </a>
+              <a href="https://www.u-bordeaux.fr/" target="_blank" title="U-Bordeaux" style = "border:none;border-radius:0;width:60px">
+                <img src = 'images/u_bordeaux.jpg' alt="ubordeaux" />
+                <!--<i class="fa fa-twitter"></i>-->
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div class="max-inner">
+          <div class="row">
+            <div class="columns col-12">
+              <header>
+                <header class="section-heading" style="padding: 0px">
+                 <br/>
+                <h2>The IHR-Nom project</h2>
+              </header>
+            </div>
+          </div>
+
+          <div class="row plans-wrapper">
+
+              <div class="columns col-12">
+                <div class="columns col-12 plan-desc" style="margin-bottom: 50px;">
+                  <p style ="text-align: justify">The IHR-Nom project is our project for preserving an old Vietnamese language called ChuNom. ChuNom had been using to record the history of Vietnam for more than a thousand years. 
+                    As results, there is a huge amount of ChuNom documents that had been writing thoughout many generations and many of those have been collected by Vietnamese agencies and world-wide foundations. However, over 90% of the collected documents have not
+                    yet been translated into modern Vietnamese language, and very few of them have been text-digitized. Furthermore, according to the Vietnamese Nom Preservation Foundation, less than 100 scholars 
+                    world-wide can read Nom script today. Therefore, it is extremely necessary to develop a system for text-digitization and futhermore, translation from ChuNom to modern Vietnamese language. </br>
+                   </p>
+                   <br />
+                   <center>              
+                    <figure>
+                      <img src="images/ihr-nom/example.png" alt="IHR-NomDB" style="width: 80%;">
+                      <figcaption> Example images of Nom documents and vertical text image segmentation</figcaption>
+                    </figure> 
+                  </center>
+                  <br />
+                  <p>This project is about applying new technologies of deep learning for ChuNom text-digitalization and translation to modern Vietnamese language.</p>
+                </div>
+
+                <div class="columns col-12 plan-desc">
+                  <h4>The IHR-NomDB</h3>
+                <p style ="text-align: justify">
+                  The IHR-NomDB is a database for ChuNom language in handwritten, which is described on the paper <b>"IHR-NomDB: The Old Degraded Vietnamese Handwritten Script Archive Database"</b>.
+                  <br />
+                  The database consists of two parts including the handwriting part and the Synthetic Nom String part. Totally, 34,991 instances of handwritting characters and 704, 991 instances of generated characters are distributed
+                  over 106,622 columns of text characters for the whole database. The underlying lexicon includes 13,254 different ChuNom characters. The database described in this paper is freely available for researching purpose.
+                  <br />
+                  <br />
+                  To obtain this database, you agree with the following terms of use:
+                 </p>
+                 <ul>
+                   <li>The  dataset and annotations are available for non-commercial research purposes only.</li>
+                   <li>You agree with all terms of use, copyrights & restrictions from <a href="http://nomfoundation.org/About-the-Foundation/Terms-of-use?uiLang=en">http://nomfoundation.org/About-the-Foundation/Terms-of-use?uiLang=en</a></li>
+                   <li>You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.</li>
+                   <li>You agree not to further copy, publish or distribute any portion of  annotations of the dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.</li>
+                 </ul>
+                 <p>There are four parts of the database, which is including:</p>            
+                 <ol>
+                  <li>The Handwritten: contains the handwritten dataset <a href="data/handwritten.zip">download</a></li>
+                  <li>The Synthetic Nom String dataset without augmentation <a href="data/generated_origin.zip">download</a></li>
+                  <li>The Synthetic Nom String augmented dataset <a href="data/generated_augmented.zip">download</a></li>
+                  <li>The Natural Language Processing dataset: contains ChuNom sentences and its translation <a href="data/nlp.zip">download</a></li>
+                 </ul>
+              </div>
+              </div>
+        
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="max-inner footer-content">
+            <div class="columns col-3">
+              <h3>Contact</h3>
+              <p>
+                MorphoBoid team<br />
+                LaBRI laboratory<br />
+                351 cours de la Liberation<br />
+                Talence - 33400, France
+                <br />
+                Phone: +33(0)5 4000 69 00<br />
+              </p>
+            </div>
+            <div class="columns col-3">
+              <h3>Probjects</h3>
+              <ul>
+                <li><a href="projects.html">DevMAP project</a></li>
+                <li><a href="projects.html">Heritage classification</a></li>
+                <li><a href="projects.html">GESHAEM project</a></li>
+                <li><a href="projects.html">ADDICTO project</a></li>
+              </ul>
+            </div>
+            <div class="columns col-3">
+              <h3>Positions</h3>
+              <ul>
+                <li><a href="#">Engineer position</a></li>
+                <li><a href="#">Internship position</a></li>
+                <li><a href="#">Phd thesis position</a></li>
+                <li><a href="#">Post-doct position</a></li>
+              </ul>
+            </div>
+            <div class="columns col-3">
+              <h3>Support</h3>
+              <p>
+                MorphoBoid team
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright">
+          <div class="max-inner">
+            <div class="row">
+              <div class="columns col-12">
+                <p>Copyright &copy; 2018 morphoboid. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- end: ON canvas area -->
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
